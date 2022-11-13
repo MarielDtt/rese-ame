@@ -1,9 +1,38 @@
+header {
+	height: 145px;
+	width: 99,5%;
+	background-color: #FEBE8C;
+    border: solid 5px #F7A4A0;
+}
+
+#foto{
+    max-width: 40%;
+height: auto;
+margin: 20px;
+padding: 5px;
+display: inline-block;
+margin: auto;
+}
+#foto2{
+    max-width: 40%;
+height: auto;
+margin: 20px;
+padding: 5px;
+display: inline-block;
+margin: auto;
+justify-content: center;
+}
+
+
 .nav-enlace{
     display: inline-block;
     background: #F7A4A4;
     color: #fff;
     padding: 10px 30px;
     text-decoration: none;
+    border: solid 1px #F7A4A0;
+    border-radius: 10px ;
+
 }
 .nav-enlace:hover{
     background:rosybrown;
@@ -14,6 +43,7 @@ nav{
     padding: 10px;
     display: flex;
     justify-content: space-around;
+    border: solid 5px #F7A4A0;
 }
 .nav-boton{
     background: #F7A4A4;
@@ -21,6 +51,7 @@ nav{
     padding: 10px 0;
     border: 2px solid #fff;
     display: none;
+    border-radius: 10px ;
 }
 
 @media(max-width: 600px){
@@ -36,5 +67,5 @@ nav{
     .desaparece{
         display: none;
     }
-}
+  }
 
