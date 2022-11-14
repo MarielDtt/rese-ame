@@ -6,21 +6,20 @@ header {
 }
 
 #foto{
-    max-width: 40%;
+max-width: 40%;
 height: auto;
 margin: 20px;
-padding: 5px;
+padding: 0px;
 display: inline-block;
 margin: auto;
 }
 #foto2{
-    max-width: 40%;
+max-width: 40%;
 height: auto;
-margin: 20px;
-padding: 5px;
+padding: 25px;
 display: inline-block;
-margin: auto;
 justify-content: center;
+
 }
 
 
@@ -54,6 +53,7 @@ nav{
     border-radius: 10px ;
 }
 
+
 @media(max-width: 600px){
     nav{
         flex-direction: column;
@@ -67,5 +67,6 @@ nav{
     .desaparece{
         display: none;
     }
+   
   }
 
